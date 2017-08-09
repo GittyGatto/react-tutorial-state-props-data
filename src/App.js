@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Title from './components/Title';
 import Player from './components/Player';
+import Another from "./components/Another";
 
 class App extends Component {
     constructor() {
@@ -40,6 +41,7 @@ class App extends Component {
                 <Title title={title}/>
                 <Title title={this.state.title}/>
                 <Player/>
+                <Another/>
 
                 {/*
                 {this.state.name}*/}
